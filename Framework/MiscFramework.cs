@@ -32,7 +32,7 @@ namespace MyMiscsTools
 
         public int VarAge()
         {
-            return 3;//property assignation of value
+            return 3;
         }
 
         public string VarName()
