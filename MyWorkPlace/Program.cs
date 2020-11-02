@@ -14,17 +14,22 @@ namespace MyWorkPlace
     {
         class Person
         {
-            public int age;
-            public string name;
+            public int Age { get; set; }//property
+            public string Name { get; set; }//property
+
+            public Person()//concstructor
+            {
+                Name = "bobby";//property assignation of value
+                Age = 3;//property assignation of value
+            }
 
         }
 
         static void Main(string[] args)
         {
-            Person bob = new Person();
-            bob.name = "bobby";
-            bob.age = 3;
-            //Console.WriteLine(bob.age);
+            Person bob = new Person();//concstructor implementation
+            Console.WriteLine(bob.Name);//property implementation
+            Console.WriteLine(bob.Age);//property implementation
         }
     }
 }
