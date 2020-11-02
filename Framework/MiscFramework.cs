@@ -8,7 +8,11 @@ namespace MyMiscsTools
 {
     public class MiscFramework
     {
+        public int Age { get; set; }//property
+        public string Name { get; set; }//property
         public char Yorn { get; set; }
+
+
         public void DrawPyramid(int n)
         {
             for (int i = 1; i <= n; i++)
@@ -24,5 +28,18 @@ namespace MyMiscsTools
                 Console.WriteLine();
             }
         }
+
+
+        public int VarAge()
+        {
+            return 3;//property assignation of value
+        }
+
+        public string VarName()
+        {
+            return "Davey";
+        }
+
+
     }
 }
