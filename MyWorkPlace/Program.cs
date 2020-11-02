@@ -14,9 +14,14 @@ namespace MyWorkPlace
     {
         static void Main(string[] args)
         {
-            MiscFramework bob = new MiscFramework();
-            Console.WriteLine(bob.Name);//property implementation
-            Console.WriteLine(bob.Age);//property implementation
+            //MathFramework sum = new MathFramework();
+            int sum = 0;
+            int[] myarray = { 1, 4, 78, 89, 97, 0, 4 };
+            for (int i = 0; i > myarray.Length; i++)
+            {
+                sum = sum + myarray[i];
+            }
+            Console.WriteLine(sum);
         }
     }
 }

@@ -9,7 +9,7 @@ namespace MyMathTools
     public class MathFramework
     {
         //property
-        public int Variable1 { get; set; }
+        public int VarSum { get; set; }
         public int Variable2 { get; set; }
 
         //object 
@@ -17,9 +17,9 @@ namespace MyMathTools
         public int Myvar2;
 
         //add two numbers result is the total
-        public int Addition( int var1,  int var2)
+        public int Addition(int var1, int var2)
         {
-            return  var1 + var2;
+            return var1 + var2;
         }
         //subtract two numbers result is the total
         public void Minus(ref int var1, ref int var2, ref int result)
