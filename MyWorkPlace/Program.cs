@@ -9,23 +9,23 @@ using MyMiscsTools;
 
 namespace MyWorkPlace
 {
+    //git hub 58480803+direvader12@users.noreply.github.com
     class Program
     {
-        
-        
-        static void Main(string[] args)
+        class Person
         {
-            int[,] numArray = { { 2, 3 }, { 5, 6 }, { 4, 6 } };
-            for (int k = 0; k < 3; k++)
-            {
-                for (int j = 0; j < 2; j++)
-                {
-                    Console.Write(numArray[k, j] + " ");
-                }
-                Console.WriteLine();
-            }
+            public int age;
+            public string name;
+
         }
 
+        static void Main(string[] args)
+        {
+            Person bob = new Person();
+            bob.name = "bobby";
+            bob.age = 3;
+            //Console.WriteLine(bob.age);
+        }
     }
 }
 
