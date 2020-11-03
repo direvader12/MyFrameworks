@@ -17,7 +17,7 @@ namespace MyWorkPlace
             //MathFramework sum = new MathFramework();
             int sum = 0;
             int[] myarray = { 1, 4, 78, 89, 97, 0, 4 };
-            for (int i = 0; i > myarray.Length; i++)
+            for (int i = 0; i < myarray.Length; i++)
             {
                 sum = sum + myarray[i];
             }
