@@ -29,16 +29,29 @@ namespace MyMiscsTools
             }
         }
 
-
+        //return int
         public int VarAge()
         {
             return 3;
         }
-
+        //return string
         public string VarName()
         {
             return "Davey";
         }
+
+        // add all elements of array
+        public void SumArray()
+        {
+            int sum = 0;
+            int[] myarray = { 1, 4, 78, 89, 97, 0, 4 };
+                for (int i = 0; i<myarray.Length; i++)
+                {
+                    sum = sum + myarray[i];
+                }
+                Console.WriteLine(sum);
+        }
+        
 
 
     }
