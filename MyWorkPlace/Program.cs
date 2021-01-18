@@ -46,8 +46,9 @@ namespace MyWorkPlace
                 universal.address = Console.ReadLine();
                 universal.cashbalance = Convert.ToInt32(Console.ReadLine());
             }
-            catch (Exception e)
+            catch (FormatException e)
             {
+                Console.WriteLine("-------------------");
                 Console.WriteLine(universal.lastname);
                 Console.WriteLine(universal.firstname);
                 Console.WriteLine(universal.middlename);
